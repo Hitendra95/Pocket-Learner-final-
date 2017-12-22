@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        FirebaseApp.configure()
+        let myDatabase = Database.database().reference()
+        myDatabase.setValue("we have got data")
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,10 +28,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToLogin", sender: self)
     }
     
     
     @IBAction func registerButtonPressed(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "goToRegister", sender: self)
     }
     
 

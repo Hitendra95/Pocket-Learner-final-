@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,49 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color-gradient-1uw" translatesAutoresizingMaskIntoConstraints="NO" id="rgm-hs-lXR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="owW-OP-rEN">
+                                <rect key="frame" x="67" y="269" width="240" height="217"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="217" id="Qwo-RB-qmo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     EXPLORE GENIUS IN YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13e-5o-2jv">
+                                <rect key="frame" x="16" y="117" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="EBw-oR-2d5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <color key="textColor" red="0.97631285820000002" green="1" blue="0.97414573149999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="owW-OP-rEN" secondAttribute="trailing" constant="68" id="5jr-V5-5dZ"/>
+                            <constraint firstItem="rgm-hs-lXR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9cd-K7-Wod"/>
+                            <constraint firstItem="rgm-hs-lXR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CJu-kh-p9F"/>
+                            <constraint firstItem="rgm-hs-lXR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GYf-dl-Ew9"/>
+                            <constraint firstItem="13e-5o-2jv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="N78-V7-i8n"/>
+                            <constraint firstItem="owW-OP-rEN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="ONo-WL-vXe"/>
+                            <constraint firstItem="rgm-hs-lXR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ceW-MN-EOs"/>
+                            <constraint firstItem="13e-5o-2jv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="leD-Ux-wZn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="13e-5o-2jv" secondAttribute="trailing" constant="16" id="rTn-fj-aAx"/>
+                            <constraint firstItem="owW-OP-rEN" firstAttribute="top" secondItem="13e-5o-2jv" secondAttribute="bottom" constant="92" id="yRl-eo-Z3l"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="color-gradient-1uw" width="183" height="114"/>
+        <image name="iTunesArtwork" width="512" height="512"/>
+    </resources>
 </document>
