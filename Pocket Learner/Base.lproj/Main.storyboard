@@ -40,6 +40,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REN-tD-0un">
                                 <rect key="frame" x="16" y="595" width="343" height="47"/>
                                 <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Vyf-3u-0Mj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.97631285820000002" green="1" blue="0.97414573149999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -69,9 +72,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I4x-m1-UOu" secondAttribute="trailing" constant="16" id="0cv-sq-zAB"/>
                             <constraint firstItem="I4x-m1-UOu" firstAttribute="top" secondItem="kLW-dC-p5B" secondAttribute="bottom" constant="98" id="3RN-Oa-gBr"/>
                             <constraint firstItem="I4x-m1-UOu" firstAttribute="top" secondItem="kLW-dC-p5B" secondAttribute="bottom" constant="98" id="3Zm-fc-lLZ"/>
+                            <constraint firstItem="REN-tD-0un" firstAttribute="top" secondItem="I4x-m1-UOu" secondAttribute="bottom" constant="16" id="5yR-Cq-9jR"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7MO-4I-g9X"/>
-                            <constraint firstItem="REN-tD-0un" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="BE6-pq-80y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="REN-tD-0un" secondAttribute="trailing" constant="16" id="BIk-hQ-toF"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="DTT-9K-Kjs"/>
                             <constraint firstItem="kLW-dC-p5B" firstAttribute="top" secondItem="st2-Ls-kub" secondAttribute="bottom" constant="41" id="Eng-Jv-dWG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kLW-dC-p5B" secondAttribute="trailing" constant="16" id="HdQ-Yv-Ypr"/>
@@ -79,21 +81,20 @@
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hs2-y1-Pxk"/>
                             <constraint firstItem="kLW-dC-p5B" firstAttribute="top" secondItem="st2-Ls-kub" secondAttribute="bottom" constant="41" id="IKi-ef-w2Z"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KwD-wV-nbG"/>
-                            <constraint firstItem="REN-tD-0un" firstAttribute="top" secondItem="I4x-m1-UOu" secondAttribute="bottom" constant="16" id="L16-vd-uMN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="REN-tD-0un" secondAttribute="trailing" constant="16" id="MXX-DE-X29"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nfe-ss-L3q"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PJL-JU-6Hd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="REN-tD-0un" secondAttribute="bottom" constant="25" id="RMH-2Z-5Bj"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TsG-I0-Dbi"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UTM-aG-oQW"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="Y3T-6p-Lyh"/>
                             <constraint firstItem="kLW-dC-p5B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Z4n-vh-qJs"/>
-                            <constraint firstItem="REN-tD-0un" firstAttribute="top" secondItem="I4x-m1-UOu" secondAttribute="bottom" constant="16" id="ZB4-Bm-Pzm"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ekZ-Ox-gkM"/>
                             <constraint firstItem="kLW-dC-p5B" firstAttribute="top" secondItem="st2-Ls-kub" secondAttribute="bottom" constant="41" id="gPT-ym-BxM"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iiW-J7-ypa"/>
                             <constraint firstItem="n9d-Kg-4TZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ilk-Xs-rHf"/>
                             <constraint firstItem="kLW-dC-p5B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lwH-3X-IdO"/>
                             <constraint firstItem="I4x-m1-UOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pdh-5w-wJe"/>
+                            <constraint firstItem="REN-tD-0un" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rNo-90-AoD"/>
                             <constraint firstItem="st2-Ls-kub" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tlB-Db-KZz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kLW-dC-p5B" secondAttribute="trailing" constant="16" id="xLA-zT-4XK"/>
                         </constraints>
@@ -103,9 +104,9 @@
                     <connections>
                         <outlet property="loginButtonPressed" destination="I4x-m1-UOu" id="1FI-rK-ILV"/>
                         <outlet property="registerButtonPressed" destination="REN-tD-0un" id="hJ0-an-ED4"/>
-                        <segue destination="8r8-rD-SL5" kind="show" id="HBa-fa-Evy"/>
-                        <segue destination="NL0-j0-2sm" kind="show" id="htk-4e-scR"/>
-                        <segue destination="ozm-8a-KlJ" kind="show" id="gT6-ny-aJn"/>
+                        <segue destination="8r8-rD-SL5" kind="show" identifier="goToLogin" id="HBa-fa-Evy"/>
+                        <segue destination="NL0-j0-2sm" kind="show" identifier="goToRegister" id="htk-4e-scR"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="gT6-ny-aJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -178,11 +179,12 @@
                         <outlet property="emailtextField" destination="1ov-Wg-FN6" id="GOR-5P-Xnz"/>
                         <outlet property="passwordTextField" destination="lhY-fQ-sKV" id="3nt-xn-i3T"/>
                         <outlet property="registerButtonPressed" destination="rJ0-Dd-rDa" id="E8S-EP-Fp1"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="5Ql-gI-Ikm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHQ-yK-v1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="296.80000000000001" y="580.65967016491754"/>
+            <point key="canvasLocation" x="297" y="654"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tSv-Ly-wxN">
@@ -246,6 +248,7 @@
                         <outlet property="emailTextfield" destination="STb-fb-T64" id="5co-4B-wMg"/>
                         <outlet property="loginButtonPressed" destination="gm7-Yw-A3P" id="yCj-9j-by5"/>
                         <outlet property="passwordTextField" destination="rmW-P1-P7I" id="9N4-UV-9cy"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="AcQ-RX-cY7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoB-Dt-7px" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -304,4 +307,7 @@
         <image name="sk1y" width="720" height="300"/>
         <image name="skyz" width="535" height="300"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5Ql-gI-Ikm"/>
+    </inferredMetricsTieBreakers>
 </document>
