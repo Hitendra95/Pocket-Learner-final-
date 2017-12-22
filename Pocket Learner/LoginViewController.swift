@@ -42,17 +42,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         
-        Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextField.text!){
-            (user,error) in
-            if error != nil
-            {
-                print(error!)
-            }
-            else
-            {
-                self.performSegue(withIdentifier: "goToChat", sender: self)
-            }
-        }
+      
     }
     
 }
