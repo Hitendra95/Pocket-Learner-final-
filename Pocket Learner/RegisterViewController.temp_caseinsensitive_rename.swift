@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  registerViewController.swift
 //  Pocket Learner
 //
 //  Created by Hitendra Dubey on 12/22/17.
@@ -10,13 +10,13 @@ import UIKit
 import Firebase
 import SVProgressHUD
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
-    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var emailtextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-    @IBOutlet weak var loginButtonPressed: UIButton!
+    @IBOutlet weak var registerButtonPressed: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,27 +40,26 @@ class LoginViewController: UIViewController {
     }
     */
     
-    
-    @IBAction func loginButtonPressed(_ sender: UIButton) {
+    @IBAction func registerButtonPressed(_ sender: UIButton) {
+        
         SVProgressHUD.show()
         
-        Auth.auth().signIn(withEmail: emailTextfield.text!, password: passwordTextField.text!) { (user, error) in
-            
+        Auth.auth().createUser(withEmail: emailtextField.text!, password: passwordTextField.text!){
+            (user,error) in
             if error != nil
             {
-                print("error in signing in")
+                print(error!)
             }
             else
             {
-                print("login successfull")
-                
-                self.performSegue(withIdentifier: "goToQuestion", sender: self)
+                print("registration successfull!")
                 SVProgressHUD.dismiss()
+                self.performSegue(withIdentifier: "goToChat", sender: self)
             }
-            
         }
         
-      
+        
     }
     
+
 }

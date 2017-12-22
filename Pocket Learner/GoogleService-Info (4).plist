@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>717895446180-097uelca7ebfntgme0i32sbf7c8v3132.apps.googleusercontent.com</string>
+	<string>443261280929-lmqllip7bht9aor8r81138essfk8u8ve.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.717895446180-097uelca7ebfntgme0i32sbf7c8v3132</string>
+	<string>com.googleusercontent.apps.443261280929-lmqllip7bht9aor8r81138essfk8u8ve</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBeKfkHtLDZszC9HN82goq_KoeJQK3emeo</string>
+	<string>AIzaSyDB7tDxisHeyRuKU1BiSSYLcRUtEVjdsi4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>717895446180</string>
+	<string>443261280929</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.Hitendradubey.Pocket-Learner</string>
 	<key>PROJECT_ID</key>
-	<string>pocket-learner</string>
+	<string>pocket-learner1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pocket-learner.appspot.com</string>
+	<string>pocket-learner1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:717895446180:ios:aa68b3cce9dc6a4e</string>
+	<string>1:443261280929:ios:aa68b3cce9dc6a4e</string>
 	<key>DATABASE_URL</key>
-	<string>https://pocket-learner.firebaseio.com</string>
+	<string>https://pocket-learner1.firebaseio.com</string>
 </dict>
 </plist>

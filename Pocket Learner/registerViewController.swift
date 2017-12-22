@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import SVProgressHUD
 
-class registerViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     @IBOutlet weak var emailtextField: UITextField!
     
@@ -46,6 +46,7 @@ class registerViewController: UIViewController {
         
         Auth.auth().createUser(withEmail: emailtextField.text!, password: passwordTextField.text!){
             (user,error) in
+            
             if error != nil
             {
                 print(error!)
@@ -54,7 +55,7 @@ class registerViewController: UIViewController {
             {
                 print("registration successfull!")
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "goToChat", sender: self)
+                self.performSegue(withIdentifier: "goToQuestion", sender: self)
             }
         }
         

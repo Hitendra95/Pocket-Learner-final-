@@ -106,7 +106,7 @@
                         <outlet property="registerButtonPressed" destination="REN-tD-0un" id="hJ0-an-ED4"/>
                         <segue destination="8r8-rD-SL5" kind="show" identifier="goToLogin" id="HBa-fa-Evy"/>
                         <segue destination="NL0-j0-2sm" kind="show" identifier="goToRegister" id="htk-4e-scR"/>
-                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="gT6-ny-aJn"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToQuestion" id="gT6-ny-aJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -116,14 +116,13 @@
         <!--Register View Controller-->
         <scene sceneID="xx7-A7-nIx">
             <objects>
-                <viewController id="NL0-j0-2sm" customClass="registerViewController" customModule="Pocket_Learner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NL0-j0-2sm" customClass="RegisterViewController" customModule="Pocket_Learner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bTF-pV-ets">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O5Y-Yp-Rlm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <string key="image">create-a-colour-gradient-with-ombre-design-decorations-tree-graduated-interior-wall-painting-technique_1511990780_378x252_6147153c7df6cf09</string>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ov-Wg-FN6">
                                 <rect key="frame" x="16" y="123" width="343" height="30"/>
@@ -180,7 +179,7 @@
                         <outlet property="emailtextField" destination="1ov-Wg-FN6" id="GOR-5P-Xnz"/>
                         <outlet property="passwordTextField" destination="lhY-fQ-sKV" id="3nt-xn-i3T"/>
                         <outlet property="registerButtonPressed" destination="rJ0-Dd-rDa" id="E8S-EP-Fp1"/>
-                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="5Ql-gI-Ikm"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToQuestion" id="5Ql-gI-Ikm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHQ-yK-v1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -249,7 +248,7 @@
                         <outlet property="emailTextfield" destination="STb-fb-T64" id="5co-4B-wMg"/>
                         <outlet property="loginButtonPressed" destination="gm7-Yw-A3P" id="yCj-9j-by5"/>
                         <outlet property="passwordTextField" destination="rmW-P1-P7I" id="9N4-UV-9cy"/>
-                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToChat" id="AcQ-RX-cY7"/>
+                        <segue destination="ozm-8a-KlJ" kind="show" identifier="goToQuestion" id="AcQ-RX-cY7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoB-Dt-7px" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -305,9 +304,6 @@
     </scenes>
     <resources>
         <image name="1183-7" width="189" height="233"/>
-        <image width="126" height="84">
-            <string key="name">create-a-colour-gradient-with-ombre-design-decorations-tree-graduated-interior-wall-painting-technique_1511990780_378x252_6147153c7df6cf09</string>
-        </image>
         <image name="iTunesArtwork" width="512" height="512"/>
         <image name="images" width="91" height="61"/>
     </resources>
