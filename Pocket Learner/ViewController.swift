@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        FirebaseApp.configure()
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("we have got data")
+        
     }
 
     override func didReceiveMemoryWarning() {

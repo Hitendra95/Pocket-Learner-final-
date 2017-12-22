@@ -23,12 +23,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sk1y" translatesAutoresizingMaskIntoConstraints="NO" id="n9d-Kg-4TZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1183-7" translatesAutoresizingMaskIntoConstraints="NO" id="n9d-Kg-4TZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4x-m1-UOu">
                                 <rect key="frame" x="16" y="532" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.97631285820000002" green="1" blue="0.97414573149999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -39,7 +39,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REN-tD-0un">
                                 <rect key="frame" x="16" y="595" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="Vyf-3u-0Mj"/>
                                 </constraints>
@@ -121,8 +121,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skyz" translatesAutoresizingMaskIntoConstraints="NO" id="O5Y-Yp-Rlm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O5Y-Yp-Rlm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <string key="image">create-a-colour-gradient-with-ombre-design-decorations-tree-graduated-interior-wall-painting-technique_1511990780_378x252_6147153c7df6cf09</string>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ov-Wg-FN6">
                                 <rect key="frame" x="16" y="123" width="343" height="30"/>
@@ -144,7 +145,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJ0-Dd-rDa">
                                 <rect key="frame" x="16" y="271" width="343" height="52"/>
-                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="tS6-jr-hES"/>
                                 </constraints>
@@ -194,7 +195,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skyz" translatesAutoresizingMaskIntoConstraints="NO" id="LyJ-jG-QNd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="LyJ-jG-QNd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STb-fb-T64">
@@ -205,7 +206,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm7-Yw-A3P">
                                 <rect key="frame" x="16" y="311" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="PHH-CX-TUw"/>
                                 </constraints>
@@ -303,9 +304,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1183-7" width="189" height="233"/>
+        <image width="126" height="84">
+            <string key="name">create-a-colour-gradient-with-ombre-design-decorations-tree-graduated-interior-wall-painting-technique_1511990780_378x252_6147153c7df6cf09</string>
+        </image>
         <image name="iTunesArtwork" width="512" height="512"/>
-        <image name="sk1y" width="720" height="300"/>
-        <image name="skyz" width="535" height="300"/>
+        <image name="images" width="91" height="61"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5Ql-gI-Ikm"/>
