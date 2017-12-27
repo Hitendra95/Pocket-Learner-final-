@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import SVProgressHUD
 
-class RegisterViewController: UIViewController {
+class registerViewController: UIViewController {
 
     @IBOutlet weak var emailtextField: UITextField!
     
@@ -44,18 +44,18 @@ class RegisterViewController: UIViewController {
         
         SVProgressHUD.show()
         
-        Auth.auth().createUser(withEmail: emailtextField.text!, password: passwordTextField.text!){
-            (user,error) in
+        Auth.auth().createUser(withEmail: emailtextField.text!, password: passwordTextField.text!) { (user, error) in
             
             if error != nil
             {
+                print("erorr unsuccesfull!")
                 print(error!)
             }
             else
             {
                 print("registration successfull!")
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "goToQuestion", sender: self)
+                self.performSegue(withIdentifier: "goToTopic", sender: self)
             }
         }
         

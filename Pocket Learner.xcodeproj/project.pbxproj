@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		1AC64D9F8AA778CF212476E0 /* Pods_Pocket_Learner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5EDAB55760FCB8AF002812 /* Pods_Pocket_Learner.framework */; };
 		DC0B14B11FED383E008123E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B14B01FED383E008123E8 /* LoginViewController.swift */; };
-		DC0B14B31FED3872008123E8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B14B21FED3872008123E8 /* RegisterViewController.swift */; };
-		DC0B14B51FED388C008123E8 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B14B41FED388C008123E8 /* questionViewController.swift */; };
+		DC0B14B31FED3872008123E8 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B14B21FED3872008123E8 /* registerViewController.swift */; };
+		DC3EE1681FF2BE380065F8A1 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EE1671FF2BE380065F8A1 /* questionViewController.swift */; };
 		DC41CDFB1FECF24000BF0C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41CDFA1FECF24000BF0C37 /* AppDelegate.swift */; };
 		DC41CDFD1FECF24000BF0C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41CDFC1FECF24000BF0C37 /* ViewController.swift */; };
 		DC41CE001FECF24000BF0C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC41CDFE1FECF24000BF0C37 /* Main.storyboard */; };
 		DC41CE021FECF24000BF0C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC41CE011FECF24000BF0C37 /* Assets.xcassets */; };
 		DC41CE051FECF24000BF0C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC41CE031FECF24000BF0C37 /* LaunchScreen.storyboard */; };
-		DCD90E8C1FED597A0054041F /* GoogleService-Info (4).plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD90E8B1FED597A0054041F /* GoogleService-Info (4).plist */; };
+		DC57541D1FF2B2700039E48D /* topicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57541C1FF2B2700039E48D /* topicViewController.swift */; };
+		DC5754231FF2BA2F0039E48D /* subtopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */; };
+		DC5754251FF2BD1B0039E48D /* topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5754241FF2BD1B0039E48D /* topic.swift */; };
+		DCD90E8C1FED597A0054041F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD90E8B1FED597A0054041F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +27,8 @@
 		688A0C8C7CBB961F1FCF1D01 /* Pods-Pocket Learner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Learner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5EDAB55760FCB8AF002812 /* Pods_Pocket_Learner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Learner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0B14B01FED383E008123E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		DC0B14B21FED3872008123E8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		DC0B14B41FED388C008123E8 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
+		DC0B14B21FED3872008123E8 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		DC3EE1671FF2BE380065F8A1 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = questionViewController.swift; path = "/Users/hitendradubey/Desktop/Pocket-Learner/Pocket Learner/controller/questionViewController.swift"; sourceTree = "<absolute>"; };
 		DC41CDF71FECF24000BF0C37 /* Pocket Learner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Learner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC41CDFA1FECF24000BF0C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC41CDFC1FECF24000BF0C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +36,10 @@
 		DC41CE011FECF24000BF0C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC41CE041FECF24000BF0C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC41CE061FECF24000BF0C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCD90E8B1FED597A0054041F /* GoogleService-Info (4).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (4).plist"; sourceTree = "<group>"; };
+		DC57541C1FF2B2700039E48D /* topicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicViewController.swift; sourceTree = "<group>"; };
+		DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subtopicViewController.swift; sourceTree = "<group>"; };
+		DC5754241FF2BD1B0039E48D /* topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topic.swift; sourceTree = "<group>"; };
+		DCD90E8B1FED597A0054041F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +93,44 @@
 			isa = PBXGroup;
 			children = (
 				DC41CDFA1FECF24000BF0C37 /* AppDelegate.swift */,
-				DC0B14B21FED3872008123E8 /* RegisterViewController.swift */,
-				DC0B14B41FED388C008123E8 /* questionViewController.swift */,
-				DC41CDFC1FECF24000BF0C37 /* ViewController.swift */,
-				DC41CDFE1FECF24000BF0C37 /* Main.storyboard */,
-				DC0B14B01FED383E008123E8 /* LoginViewController.swift */,
+				DC57541B1FF2B1980039E48D /* controller */,
+				DC57541A1FF2B15A0039E48D /* view */,
+				DC5754261FF2BD220039E48D /* Data */,
 				DC41CE011FECF24000BF0C37 /* Assets.xcassets */,
 				DC41CE031FECF24000BF0C37 /* LaunchScreen.storyboard */,
 				DC41CE061FECF24000BF0C37 /* Info.plist */,
-				DCD90E8B1FED597A0054041F /* GoogleService-Info (4).plist */,
+				DCD90E8B1FED597A0054041F /* GoogleService-Info.plist */,
 			);
 			path = "Pocket Learner";
+			sourceTree = "<group>";
+		};
+		DC57541A1FF2B15A0039E48D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC41CDFE1FECF24000BF0C37 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DC57541B1FF2B1980039E48D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC0B14B21FED3872008123E8 /* registerViewController.swift */,
+				DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */,
+				DC57541C1FF2B2700039E48D /* topicViewController.swift */,
+				DC41CDFC1FECF24000BF0C37 /* ViewController.swift */,
+				DC3EE1671FF2BE380065F8A1 /* questionViewController.swift */,
+				DC0B14B01FED383E008123E8 /* LoginViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		DC5754261FF2BD220039E48D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DC5754241FF2BD1B0039E48D /* topic.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +197,7 @@
 			files = (
 				DC41CE051FECF24000BF0C37 /* LaunchScreen.storyboard in Resources */,
 				DC41CE021FECF24000BF0C37 /* Assets.xcassets in Resources */,
-				DCD90E8C1FED597A0054041F /* GoogleService-Info (4).plist in Resources */,
+				DCD90E8C1FED597A0054041F /* GoogleService-Info.plist in Resources */,
 				DC41CE001FECF24000BF0C37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +215,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -192,6 +227,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -244,9 +281,12 @@
 			files = (
 				DC0B14B11FED383E008123E8 /* LoginViewController.swift in Sources */,
 				DC41CDFD1FECF24000BF0C37 /* ViewController.swift in Sources */,
+				DC5754231FF2BA2F0039E48D /* subtopicViewController.swift in Sources */,
 				DC41CDFB1FECF24000BF0C37 /* AppDelegate.swift in Sources */,
-				DC0B14B31FED3872008123E8 /* RegisterViewController.swift in Sources */,
-				DC0B14B51FED388C008123E8 /* questionViewController.swift in Sources */,
+				DC5754251FF2BD1B0039E48D /* topic.swift in Sources */,
+				DC0B14B31FED3872008123E8 /* registerViewController.swift in Sources */,
+				DC3EE1681FF2BE380065F8A1 /* questionViewController.swift in Sources */,
+				DC57541D1FF2B2700039E48D /* topicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

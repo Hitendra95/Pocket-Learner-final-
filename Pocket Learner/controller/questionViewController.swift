@@ -1,9 +1,8 @@
 //
 //  questionViewController.swift
-//  Pocket Learner
+//  
 //
-//  Created by Hitendra Dubey on 12/22/17.
-//  Copyright © 2017 Hitendra Dubey. All rights reserved.
+//  Created by Hitendra Dubey on 12/26/17.
 //
 
 import UIKit
