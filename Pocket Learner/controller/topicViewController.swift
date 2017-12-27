@@ -8,6 +8,7 @@
 
 import UIKit
 import RealmSwift
+import ChameleonFramework
 
 class topicViewController: UITableViewController {
     let realm = try! Realm()
@@ -26,6 +27,8 @@ class topicViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "topicCell", for: indexPath)
         cell.textLabel?.text = topicArray[indexPath.row]
+        cell.backgroundColor = UIColor.flatWatermelon()
+        cell.textLabel?.textColor = UIColor.flatWhite()
         return cell
 
     }

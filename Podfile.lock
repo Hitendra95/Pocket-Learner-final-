@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.6.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
   - Firebase (4.8.0):
     - Firebase/Core (= 4.8.0)
   - Firebase/Auth (4.8.0):
@@ -55,6 +58,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - ChameleonFramework
   - Firebase
   - Firebase/Auth
   - Firebase/Database
@@ -64,6 +68,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Firebase: 710decbbc6d9d48530e9a5dba3209740c3532e05
   FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
   FirebaseAuth: dc0dd403beca5b2b016aac89c2d0b8dad1c81926
@@ -79,6 +84,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 1de78a33481995cf165cd8a5fe2f1709866e0511
+PODFILE CHECKSUM: 762b9d571e8c3491c7319ebd632a59e020170333
 
 COCOAPODS: 1.3.1
