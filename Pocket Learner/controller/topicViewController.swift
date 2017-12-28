@@ -12,24 +12,30 @@ import ChameleonFramework
 
 class topicViewController: UITableViewController {
     let realm = try! Realm()
-    var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge","Engeenering"]
+
+    //var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge","Engeenering"]
+    var topicArray : Results<Topic>?
     @IBOutlet var searchBar: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
         tableView.rowHeight = 80.0
 
       
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return topicArray.count
+        return topicArray?.count ?? 1
     }
     
     //MARK : -> display data in topic view cell
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "topicCell", for: indexPath)
-        cell.textLabel?.text = topicArray[indexPath.row]
+        if let topic = topicArray?[indexPath.row]
+        {
+            cell.textLabel?.text = topic.topicName
+        }
         cell.backgroundColor = UIColor.flatWatermelon()
         cell.textLabel?.textColor = UIColor.flatWhite()
         return cell
@@ -42,10 +48,34 @@ class topicViewController: UITableViewController {
         if segue.identifier == "goToSubtopics"
         {
             let destinationVC = segue.destination as! subtopicViewController
-            //destinationVC.delegate = self
+            if let indexPath = tableView.indexPathForSelectedRow
+            {
+                destinationVC.selectedTopic = topicArray?[indexPath.row]
+            }
         }
         
     }
+    func savedata()
+    {
+        let topic = Topic()
+        topic.topicName = "Quants"
+        do
+        {
+            try realm.write {
+                realm.add(topic)
+            }
+        }
+        catch{
+            print("error in saving data in realm\(realm)")
+        }
+    }
+    func loadData()
+    {
+            
+            topicArray = realm.objects(Topic.self)
+            tableView.reloadData()
+    }
+        
  }
 
 

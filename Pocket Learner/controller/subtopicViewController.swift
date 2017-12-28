@@ -11,7 +11,7 @@ import Firebase
 
 class subtopicViewController: UITableViewController {
 
-    //var delegate = subtopicDelegate
+    var selectedTopic : Topic?
     override func viewDidLoad() {
         super.viewDidLoad()
 
