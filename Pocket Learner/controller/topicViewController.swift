@@ -24,6 +24,9 @@ class topicViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return topicArray.count
     }
+    
+    //MARK : -> display data in topic view cell
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "topicCell", for: indexPath)
         cell.textLabel?.text = topicArray[indexPath.row]
@@ -31,6 +34,9 @@ class topicViewController: UITableViewController {
         cell.textLabel?.textColor = UIColor.flatWhite()
         return cell
 
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goToSubtopic", sender: self)
     }
  }
 
