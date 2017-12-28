@@ -18,7 +18,8 @@
 		DC41CE051FECF24000BF0C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC41CE031FECF24000BF0C37 /* LaunchScreen.storyboard */; };
 		DC57541D1FF2B2700039E48D /* topicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57541C1FF2B2700039E48D /* topicViewController.swift */; };
 		DC5754231FF2BA2F0039E48D /* subtopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */; };
-		DC5754251FF2BD1B0039E48D /* topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5754241FF2BD1B0039E48D /* topic.swift */; };
+		DC72A4B81FF5537C00166290 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A4B71FF5537C00166290 /* Topic.swift */; };
+		DC72A4BA1FF5539000166290 /* Subtopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72A4B91FF5539000166290 /* Subtopic.swift */; };
 		DCD90E8C1FED597A0054041F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD90E8B1FED597A0054041F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,8 @@
 		DC41CE061FECF24000BF0C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC57541C1FF2B2700039E48D /* topicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicViewController.swift; sourceTree = "<group>"; };
 		DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subtopicViewController.swift; sourceTree = "<group>"; };
-		DC5754241FF2BD1B0039E48D /* topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topic.swift; sourceTree = "<group>"; };
+		DC72A4B71FF5537C00166290 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		DC72A4B91FF5539000166290 /* Subtopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtopic.swift; sourceTree = "<group>"; };
 		DCD90E8B1FED597A0054041F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,6 @@
 				DC41CDFA1FECF24000BF0C37 /* AppDelegate.swift */,
 				DC57541B1FF2B1980039E48D /* controller */,
 				DC57541A1FF2B15A0039E48D /* view */,
-				DC5754261FF2BD220039E48D /* Data */,
 				DC41CE011FECF24000BF0C37 /* Assets.xcassets */,
 				DC41CE031FECF24000BF0C37 /* LaunchScreen.storyboard */,
 				DC41CE061FECF24000BF0C37 /* Info.plist */,
@@ -108,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DC41CDFE1FECF24000BF0C37 /* Main.storyboard */,
+				DC72A4BB1FF553A000166290 /* Data */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -125,10 +127,11 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
-		DC5754261FF2BD220039E48D /* Data */ = {
+		DC72A4BB1FF553A000166290 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				DC5754241FF2BD1B0039E48D /* topic.swift */,
+				DC72A4B71FF5537C00166290 /* Topic.swift */,
+				DC72A4B91FF5539000166290 /* Subtopic.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -282,11 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0B14B11FED383E008123E8 /* LoginViewController.swift in Sources */,
+				DC72A4BA1FF5539000166290 /* Subtopic.swift in Sources */,
 				DC41CDFD1FECF24000BF0C37 /* ViewController.swift in Sources */,
 				DC5754231FF2BA2F0039E48D /* subtopicViewController.swift in Sources */,
 				DC41CDFB1FECF24000BF0C37 /* AppDelegate.swift in Sources */,
-				DC5754251FF2BD1B0039E48D /* topic.swift in Sources */,
 				DC0B14B31FED3872008123E8 /* registerViewController.swift in Sources */,
+				DC72A4B81FF5537C00166290 /* Topic.swift in Sources */,
 				DC3EE1681FF2BE380065F8A1 /* questionViewController.swift in Sources */,
 				DC57541D1FF2B2700039E48D /* topicViewController.swift in Sources */,
 			);

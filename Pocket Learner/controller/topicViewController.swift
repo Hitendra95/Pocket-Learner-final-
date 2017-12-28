@@ -12,7 +12,7 @@ import ChameleonFramework
 
 class topicViewController: UITableViewController {
     let realm = try! Realm()
-    var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge"]
+    var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge","Engeenering"]
     @IBOutlet var searchBar: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +37,14 @@ class topicViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "goToSubtopic", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToSubtopics"
+        {
+            let destinationVC = segue.destination as! subtopicViewController
+            //destinationVC.delegate = self
+        }
+        
     }
  }
 
