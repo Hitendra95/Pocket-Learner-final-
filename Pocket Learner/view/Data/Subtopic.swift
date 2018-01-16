@@ -13,5 +13,5 @@ class Subtopic : Object
 {
     @objc dynamic var subtopicName = ""
     @objc dynamic var done = false
-    let parentTopic = LinkingObjects(fromType: Topic.self, property: "subTopic")
+  //  let parentTopic = LinkingObjects(fromType: Topic.self, property: "subTopic")
 }

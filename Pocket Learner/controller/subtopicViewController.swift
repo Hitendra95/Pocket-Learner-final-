@@ -8,33 +8,76 @@
 
 import UIKit
 import Firebase
+import ChameleonFramework
 
 class subtopicViewController: UITableViewController {
-
-    var selectedTopic : Topic?
+    var tickMark : Bool = false
+    var selectedTopic : String = ""
+   var subTopicArray = [""]
     override func viewDidLoad() {
         super.viewDidLoad()
+        SubTopicArray()
+       // print(topicno)
 
        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        title = selectedTopic
     }
 
-    // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return subTopicArray.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "subTopicCell", for: indexPath)
+        cell.textLabel?.text = subTopicArray[indexPath.row]
+        cell.backgroundColor = UIColor.flatMint()
+        cell.textLabel?.textColor = UIColor.flatBlack()
+        tableView.reloadData()
+        return cell
+        
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "subTopiccell", for: indexPath)
+        if tickMark == false
+        {
+            cell.accessoryType = .checkmark
+            tickMark = true
+        }
+        else
+        {
+            cell.accessoryType = .none
+            tickMark = false
+        }
+        
+    }
+    func SubTopicArray()
+    {
+        
+            switch selectedTopic {
+            
+            case "Quants":
+                subTopicArray = ["Time and Work","Time Speed Distance","Calender","Profit and Loss"]
+            
+            case "Logical":
+                subTopicArray = ["Number Series" , "Statement And Assumptions"]
+            
+            case "Verbal":
+                subTopicArray = ["sentence correction", "Grammer", "Tense"]
+            
+
+            default:
+                subTopicArray = ["no topic"]
+            }
+        
+        
+        
+        
     }
 
    
 
- }
+}

@@ -12,5 +12,5 @@ import RealmSwift
 class Topic : Object
 {
     @objc dynamic var topicName = ""
-    let subTopic = List<Subtopic>()
+    //let subTopic = List<Subtopic>()
 }

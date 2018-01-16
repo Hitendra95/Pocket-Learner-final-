@@ -117,12 +117,12 @@
 		DC57541B1FF2B1980039E48D /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				DC0B14B21FED3872008123E8 /* registerViewController.swift */,
-				DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */,
-				DC57541C1FF2B2700039E48D /* topicViewController.swift */,
 				DC41CDFC1FECF24000BF0C37 /* ViewController.swift */,
-				DC3EE1671FF2BE380065F8A1 /* questionViewController.swift */,
+				DC0B14B21FED3872008123E8 /* registerViewController.swift */,
 				DC0B14B01FED383E008123E8 /* LoginViewController.swift */,
+				DC57541C1FF2B2700039E48D /* topicViewController.swift */,
+				DC5754221FF2BA2F0039E48D /* subtopicViewController.swift */,
+				DC3EE1671FF2BE380065F8A1 /* questionViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
