@@ -12,6 +12,7 @@ import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var emailTextfield: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -48,7 +49,9 @@ class LoginViewController: UIViewController {
             
             if error != nil
             {
-                print("error in signing in")
+               // print("error in signing in")
+                self.errorLabel.isEnabled = true
+                SVProgressHUD.dismiss()
             }
             else
             {

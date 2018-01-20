@@ -14,6 +14,7 @@ class registerViewController: UIViewController {
 
     @IBOutlet weak var emailtextField: UITextField!
     
+    @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBOutlet weak var registerButtonPressed: UIButton!
@@ -48,8 +49,11 @@ class registerViewController: UIViewController {
             
             if error != nil
             {
-                print("erorr unsuccesfull!")
-                print(error!)
+               // print("erorr unsuccesfull!")
+                //print(error!)
+               self.errorLabel.isEnabled = true
+                SVProgressHUD.dismiss()
+                
             }
             else
             {
