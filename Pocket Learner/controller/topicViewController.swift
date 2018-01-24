@@ -13,7 +13,7 @@ import ChameleonFramework
 class topicViewController: UITableViewController {
     //let realm = try! Realm()
     var indexPath1 : IndexPath?
-    var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge","Engeenering"]
+    var topicArray = ["Quants","Logical","verbal","Programming","General Knowledge","Engeenering","Economics","Current Affairs"]
     //var topicArray : Results<Topic>?
     @IBOutlet var searchBar: UITableView!
     override func viewDidLoad() {
@@ -51,7 +51,6 @@ class topicViewController: UITableViewController {
             {
                 destinationVC.selectedTopic = topicArray[indexPath.row]
 
-            
             }
         }
         

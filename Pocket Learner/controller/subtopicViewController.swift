@@ -13,7 +13,7 @@ import ChameleonFramework
 class subtopicViewController: UITableViewController {
     var tickMark : Bool = false
     var selectedTopic : String = ""
-   var subTopicArray = [""]
+   var subTopicArray = ["TSD,M&W,P&L"]
     override func viewDidLoad() {
         super.viewDidLoad()
         SubTopicArray()
