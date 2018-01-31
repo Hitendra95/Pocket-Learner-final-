@@ -57,7 +57,7 @@ class registerViewController: UIViewController {
             }
             else
             {
-                print("registration successfull!")
+               // print("registration successfull!")
                 SVProgressHUD.dismiss()
                 self.performSegue(withIdentifier: "goToTopic", sender: self)
             }
