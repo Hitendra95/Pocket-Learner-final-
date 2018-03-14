@@ -8,8 +8,11 @@
 import UIKit
 
 class questionViewController: UIViewController {
-
+    @IBOutlet weak var logoutButton: UIButton!
+    
     override func viewDidLoad() {
+        self.navigationItem.hidesBackButton = true
+        logoutButton.isEnabled = true
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
